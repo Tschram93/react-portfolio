@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Coding from '../../images/coding.jpeg';
 import Resume from '../../assets/t-schram-resume.pdf';
 import './About.css';
@@ -20,7 +19,7 @@ function About() {
 			<div className='about-right'>
 				<h1 className='about-title'>About Me</h1>
 				<p className='about-sub'>
-                    I am a student of Michigan State University.
+                    I am a student of Michigan State University's Coding Program.
 				</p>
 				<p className='about-desc'>
 					I have experience using HTML, CSS, JavaScript, Web-API's, Third-Party API's, Node, Object-Oriented Programming, Express, MySql, Object-relational mapping, model-view-control, NoSql, React, Mongoose, and the MERN stack.
