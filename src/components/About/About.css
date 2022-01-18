@@ -1,0 +1,20 @@
+.about {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.about-card {
+
+}
+
+.about-image {
+    
+}
+
+.about-left {
+    flex: 1;
+}
+
+.about-right {
+    flex: 1;
+}
