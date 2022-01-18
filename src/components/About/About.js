@@ -20,15 +20,10 @@ function About() {
 			<div className='about-right'>
 				<h1 className='about-title'>About Me</h1>
 				<p className='about-sub'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
-					dolorem?
+                    I am a student of Michigan State University.
 				</p>
 				<p className='about-desc'>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur
-					assumenda quas magnam dignissimos minus inventore itaque quidem
-					molestias sit veniam possimus autem odit, soluta aliquid cumque ea
-					impedit voluptatum quia dicta deleniti sapiente modi excepturi! Ab
-					libero iste illo dignissimos.
+					I have experience using HTML, CSS, JavaScript, Web-API's, Third-Party API's, Node, Object-Oriented Programming, Express, MySql, Object-relational mapping, model-view-control, NoSql, React, Mongoose, and the MERN stack.
 				</p>
                 <div className="about-resume">
                 <object data={Resume}type="application/pdf" className='about-resume-img' />
