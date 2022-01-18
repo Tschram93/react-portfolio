@@ -4,21 +4,29 @@
 }
 
 .wl {
-
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    text-align: center;
 }
 
 .wl-desc {
-
+    margin: 20px 0px;
 }
 
 .wl-list {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .wl-text {
-
+    width: 65%;
 }
 
 .wl-title {
-
+    font-size: 50px;
+    font-weight: 600;
 }

@@ -3,12 +3,15 @@ import './Chickenrun.css';
 
 function Chickenrun() {
 	return (
-    <div className='container'>
-        <div className='chickenrun'>
-            
-        </div>
-    </div>
-)
+		<div className='p'>
+			<div className='p-browser'>
+				<div className='p-circle'></div>
+				<div className='p-circle'></div>
+				<div className='p-circle'></div>
+			</div>
+				<h3>ChickenRun</h3>
+		</div>
+	);
 }
 
 export default Chickenrun;
