@@ -1,20 +1,56 @@
 .about {
     align-items: center;
     display: flex;
-    height: 100vh;
+    height: 120vh;
 }
 .about-card {
+    border-radius: 30px;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+}
 
+.about-card.bg {
+    background-color: #333;
+    left: 50px;
+    position: absolute;
+    top: 50px;
+}
+
+.about-desc {
+    font-weight: 300;
 }
 
 .about-image {
-    
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
 }
 
 .about-left {
+    align-items: center;
+    display: flex;
     flex: 1;
+    height: 100%;
+    justify-content: center;
+    position: relative;
 }
 
 .about-right {
     flex: 1;
+}
+
+.about-resume-img {
+    height: 100%;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.about-sub {
+margin: 20px 0px;
+}
+
+.about-title {
+    font-weight: 400;
 }
