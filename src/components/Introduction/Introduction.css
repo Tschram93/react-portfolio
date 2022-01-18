@@ -1,0 +1,94 @@
+.i-bg {
+    background-color: #59b256;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.i-intro {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.i-scroll {
+    bottom: 20px;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+}
+
+.intro {
+	display: flex;
+	height: 100vh;
+}
+
+.intro-desc {
+}
+
+.intro-img {
+    height: 65%;
+    object-fit: cover;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    width: 65%;
+}
+
+.intro-left {
+	align-items: center;
+	display: flex;
+	flex: 1;
+	justify-content: center;
+}
+
+.intro-left-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 50%;
+	justify-content: space-between;
+	padding: 50px;
+}
+
+.intro-name {
+	font-style: 60px;
+}
+
+.intro-right {
+	flex: 1;
+    position: relative;
+}
+
+.intro-title {
+	height: 50px;
+	overflow: hidden;
+}
+
+.intro-title-item {
+	align-items: center;
+	background-color: #663399;
+	color: #59b256;
+	display: flex;
+	font-style: 30px;
+	font-weight: bold;
+	height: 50px;
+}
+
+.intro-title-wrapper {
+	animation: move 10s ease-in-out infinite alternate;
+	height: 100px;
+}
+
+@keyframes move {
+	33.33% {
+		transform: translateY(-50px);
+	}
+	66.66% {
+		transform: translateY(-100px);
+	}
+	100% {
+		transform: translateY(-150px);
+	}
+}
