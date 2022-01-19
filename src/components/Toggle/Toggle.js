@@ -14,7 +14,7 @@ function Toggle() {
 		<div className='toggle'>
 			<img src={Light} alt='light bulb icon' className='toggle-icon' />
 			<img src={Moon} alt='icon of the moon' className='toggle-icon' />
-			<div className='toggle-button' onClick={ handleClick }></div>
+			<div className='toggle-button' onClick={ handleClick } style={{left: theme.state.darkMode ? 0 : 25}}></div>
 		</div>
 	);
 }
