@@ -1,5 +1,6 @@
 import React from 'react';
 import './PasswordApp.css';
+import PasswordAppImg from '../../assets/passwordPreview.png';
 
 function PasswordApp() {
 	return (
@@ -9,7 +10,13 @@ function PasswordApp() {
 				<div className='p-circle'></div>
 				<div className='p-circle'></div>
 			</div>
-				<h3>PasswordApp</h3>
+			<a
+				href='https://tschram93.github.io/password-generator/'
+				target='_blank'
+				rel='noreferrer'
+			>
+				<img src={ PasswordAppImg } alt='' className='p-img' />
+			</a>
 		</div>
 	);
 }

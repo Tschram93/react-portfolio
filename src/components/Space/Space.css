@@ -11,7 +11,8 @@
     background-color: rgb(243, 242, 242);
     display: flex;
     height: 20px;
-
+    position: sticky;
+    z-index: 2;
 }
 
 
@@ -21,4 +22,14 @@
     height: 6px;
     margin: 3px;
     width: 6px;
+}
+
+.p-img {
+    height: 75%;
+    transition: all 10s ease;
+    width: 100%;
+}
+
+.p:hover .p-img {
+    transform: translateY(-100%);
 }

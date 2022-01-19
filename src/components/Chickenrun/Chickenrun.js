@@ -1,5 +1,6 @@
 import React from 'react';
 import './Chickenrun.css';
+import ChickenrunImg from '../../assets/chickenrun.png';
 
 function Chickenrun() {
 	return (
@@ -9,7 +10,13 @@ function Chickenrun() {
 				<div className='p-circle'></div>
 				<div className='p-circle'></div>
 			</div>
-				<h3>ChickenRun</h3>
+			<a
+				href='https://chicken-running.herokuapp.com/'
+				target='_blank'
+				rel='noreferrer'
+			>
+				<img src={ ChickenrunImg } alt='' className='p-img' />
+			</a>
 		</div>
 	);
 }
