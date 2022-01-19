@@ -6,15 +6,19 @@ import './Toggle.css';
 
 function Toggle() {
 	const theme = useContext(ThemeContext);
-    const handleClick = () => {
-        theme.dispatch({ type: 'TOGGLE' })
-    };
 
+	const handleClick = () => {
+		theme.dispatch({ type: 'TOGGLE' });
+	};
 	return (
 		<div className='toggle'>
-			<img src={Light} alt='light bulb icon' className='toggle-icon' />
+			<img src={Light} alt='light-bulb icon' className='toggle-icon' />
 			<img src={Moon} alt='icon of the moon' className='toggle-icon' />
-			<div className='toggle-button' onClick={ handleClick } style={{left: theme.state.darkMode ? 0 : 25}}></div>
+			<div
+				className='toggle-button'
+				onClick={handleClick}
+				style={{ left: theme.state.darkMode ? 0 : 25 }}
+			></div>
 		</div>
 	);
 }

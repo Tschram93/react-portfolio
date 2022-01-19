@@ -54,3 +54,35 @@ margin: 20px 0px;
 .about-title {
     font-weight: 400;
 }
+
+
+@media screen and (max-width: 480px) {
+	.about {
+		flex-direction: column;
+        margin-top: 50px;
+        text-align: center;
+	}
+
+    .about-left {
+        width: 100%;
+    }
+
+    .about-card {
+        height: 30vh;
+    }
+
+    .about-card.bg {
+        display: none;
+    }
+
+    .about-right {
+        padding: 20px;
+    }
+
+    .about-resume-img {
+        flex-wrap: wrap;
+        width: 388px;
+
+    }
+
+}
