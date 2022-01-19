@@ -17,8 +17,8 @@ export const ThemeProvider = (props) => {
     const [state, dispatch] = useReducer(themeReducer, Initial_State)
 
     return (
-        <ThemeProvider value={(state, dispatch)}>
+        <ThemeContext.Provider value={{state, dispatch}}>
             {props.children}
-        </ThemeProvider>
+        </ThemeContext.Provider>
     )
 }
