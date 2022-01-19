@@ -17,7 +17,7 @@ function Work() {
                     <Space />
                     <Chickenrun />
                     <PasswordApp />
-                    {/* <PastWork />   Create past work component for each past application and insert it here as a react element/component */}
+                    {/* TODO: ADD GITHUB REPOS FOR EACH */}
                 </div>
             </div>
         </div>
