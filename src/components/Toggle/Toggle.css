@@ -1,0 +1,28 @@
+.toggle-button {
+    background-color: #BEBEBE;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 25px;
+    position: absolute;
+    width: 25px;
+}
+
+.toggle {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #BEBEBE;
+    border-radius: 20px;
+    display: flex;
+    height: 25px;
+    justify-content: space-around;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+    z-index: 999;
+}
+
+.toggle-icon {
+    height: 15px;
+    width: 15px;
+}
