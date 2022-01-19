@@ -1,10 +1,32 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Email from '../../images/Email.png';
+import emailjs from 'emailjs-com';
 import Github from '../../images/github.png';
 import Linkedin from '../../images/Linkedin.png';
 import './Contact.css';
 
 function Contact() {
+	const formRef = useRef();
+
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		emailjs
+			.sendForm(
+				'service_1ytsw5e',
+				'template_sfcbbja',
+				formRef.current,
+				'user_FcuCFvga5RgftWtJuVMrg'
+			)
+			.then(
+				(result) => {
+					console.log(result.text);
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			);
+	};
+
 	return (
 		<div className='contact'>
 			<div className='contact-bg'></div>
@@ -57,7 +79,7 @@ function Contact() {
 						<b>Have an idea for an Application or webpage?</b>I would love to
 						chat to answer any further questions or inquiries.
 					</div>
-					<form>
+					<form ref={formRef} onSubmit={handleSubmit}>
 						<input type='text' placeholder='Name' name='user_name' />
 						<input type='text' placeholder='Subject' name='user_subject' />
 						<input type='text' placeholder='Email' name='user_email' />

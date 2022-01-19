@@ -17,6 +17,7 @@ form {
 input {
 	border: none;
 	border-bottom: 1px solid #000000;
+    border-left: 3px solid #000000;
 	font-size: 14px;
 	height: 40px;
 	margin: 10px;
