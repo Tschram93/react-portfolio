@@ -6,6 +6,8 @@
 ![Portfolio Screenshot](./screenshot.png)
 This is a website that holds my portfolio, as well as including my resume.
 
+[Deployed Portfolio](https://tschram-portfolio.herokuapp.com/)
+
 ## Table of Contents
 
 1. [INSTALLATION](#Installation)
