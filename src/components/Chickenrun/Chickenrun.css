@@ -35,6 +35,7 @@
 
 .repo {
 	align-content: center;
+    margin-bottom: 3px;
 }
 
 @media screen and (max-width:480px) {
