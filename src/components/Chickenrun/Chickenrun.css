@@ -1,7 +1,7 @@
 .p {
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
-    height: 40vh;
+    height: 42vh;
     margin: 20px 10px;
     overflow: hidden;
     width: 30%;
@@ -35,8 +35,10 @@
 
 .repo {
 	align-content: center;
-    margin-bottom: 3px;
-    padding-bottom: 3px;
+    /* align-items: center;
+    margin-bottom: 5px; */
+    /* padding-bottom: 3px;
+    padding-top: 3px;  */
 }
 
 @media screen and (max-width:480px) {

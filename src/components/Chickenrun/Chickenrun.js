@@ -15,14 +15,13 @@ function Chickenrun() {
 				target='_blank'
 				rel='noreferrer'
 			>
-				<img src={ ChickenrunImg } alt='' className='p-img' />
+				<img src={ChickenrunImg} alt='' className='p-img' />
 			</a>
-			<a
-					href='https://github.com/maxaeon/project-2'
-					className='repo'
-				>
+			<div>
+				<a href='https://github.com/maxaeon/project-2' className='repo'>
 					Repo
 				</a>
+			</div>
 		</div>
 	);
 }
