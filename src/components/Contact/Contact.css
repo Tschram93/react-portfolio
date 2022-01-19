@@ -11,7 +11,9 @@
 }
 
 .contact-icon{
-    
+    height: 30px;
+    margin-right: 20px;
+    width: 30px;
 }
 
 .contact-info {
@@ -19,7 +21,11 @@
 }
 
 .contact-info-item {
-
+    align-items: center;
+    display: flex;
+    font-weight: 300;
+    margin: 50px 0px;
+    width: 70%;
 }
 
 .contact-left {
@@ -31,7 +37,8 @@
 }
 
 .contact-title {
-
+    font-size: 60px;
+    width: 80%;
 }
 
 .contact-wrapper {
