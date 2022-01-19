@@ -80,9 +80,8 @@ margin: 20px 0px;
     }
 
     .about-resume-img {
-        flex-wrap: wrap;
-        width: 388px;
-
+        display: inline-block;
+        width: 80%;
     }
 
 }

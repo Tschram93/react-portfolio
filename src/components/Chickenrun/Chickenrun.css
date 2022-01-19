@@ -32,3 +32,14 @@
 .p:hover .p-img {
     transform: translateY(-100%);
 }
+
+.repo {
+	align-content: center;
+}
+
+@media screen and (max-width:480px) {
+    .p {
+        height: 20vh;
+        width: 40%;
+    }
+}

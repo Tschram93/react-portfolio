@@ -30,3 +30,17 @@
     font-size: 50px;
     font-weight: 600;
 }
+
+/* @media screen and (max-width:480px) {
+    
+} */
+
+@media screen and (max-width:480px) {
+    .wl  {
+        padding: 10px;
+    }
+
+    .wl-text {
+        width: 100%;
+    }
+}

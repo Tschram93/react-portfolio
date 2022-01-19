@@ -84,10 +84,55 @@ textarea {
 	padding: 50px;
 }
 
+.repo {
+	align-content: center;
+}
+
 
 
 @media screen and (max-width: 480px) {
+	a {
+		font-size: 12px;
+	}
+
+	form {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 0px;
+	}
+
+	input {
+		height: 34px;
+		margin: 10px;
+		margin-left: 0px;
+		width: 35%;
+	}
+
+	.button {
+		margin-bottom: 20px;
+		margin-top: 10px;
+		padding: 5px;
+	}
+
+	.contact {
+		height: 102vh;
+	}
+
+	.contact-desc{
+		display: none;
+	}
+
 	.contact-wrapper {
 		flex-direction: column;
+		padding: 0px 50px;
+	}
+
+	.contact-title {
+		font-size: 22px;
+	}
+
+	.contact-info-item {
+		margin: 20px 0px;
+		width: 100%;
 	}
 }

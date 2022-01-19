@@ -10,7 +10,7 @@ function Work() {
             <div className="wl">
                 <div className="wl-text">
                     <h1 className="wl-title">Past Applications</h1>
-                    <p className="wl-desc">Description of Application will go here. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, perspiciatis?</p>
+                    <p className="wl-desc">These are some examples of my past applications that I have developed.</p>
                 </div>
                 <div className="wl-list">
                     <Space />

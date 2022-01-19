@@ -15,7 +15,13 @@ function PasswordApp() {
 				target='_blank'
 				rel='noreferrer'
 			>
-				<img src={ PasswordAppImg } alt='' className='p-img' />
+				<img src={PasswordAppImg} alt='' className='p-img' />
+				<a
+					href='https://github.com/Tschram93/password-generator'
+					className='repo'
+				>
+					Repo
+				</a>
 			</a>
 		</div>
 	);

@@ -17,6 +17,12 @@ function Chickenrun() {
 			>
 				<img src={ ChickenrunImg } alt='' className='p-img' />
 			</a>
+			<a
+					href='https://github.com/maxaeon/project-2'
+					className='repo'
+				>
+					Repo
+				</a>
 		</div>
 	);
 }
