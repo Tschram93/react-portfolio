@@ -3,6 +3,7 @@ import { ThemeContext } from './context';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Introduction from './components/Introduction/Introduction';
+import PdfViewer from './components/PdfViewer/PdfViewer';
 import Toggle from './components/Toggle/Toggle';
 import Work from './components/Work/Work';
 
@@ -18,6 +19,7 @@ const App = () => {
 				<Toggle />
 				<Introduction />
 				<About />
+				<PdfViewer />
 				<Work />
 				<Contact />
 		</div>

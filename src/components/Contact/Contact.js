@@ -81,7 +81,7 @@ function Contact() {
 				</div>
 				<div className='contact-right'>
 					<div className='contact-desc'>
-						<b>Have an idea for an Application or webpage?</b>I would love to
+						<b>Have an idea for an Application or webpage? </b> I would love to
 						chat to answer any further questions or inquiries.
 					</div>
 					<form ref={formRef} onSubmit={handleSubmit}>
