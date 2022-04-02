@@ -17,10 +17,19 @@ function Space() {
 			>
 				<img src={SpaceImg} alt='' className='p-img' />
 			</a>
+			<div className='link-section'>
+				<div className='repo'>
+					<a href='https://github.com/letqin/space-in-your-face'>Github Repo</a>
+				</div>
+				<div className='live-page'>
+					<a href='https://letqin.github.io/space-in-your-face/'>Live Page</a>
+				</div>
+			</div>
 			<div>
-				<a href='https://github.com/letqin/space-in-your-face' className='repo'>
-					Repo
-				</a>
+				<h3>Description</h3>
+				<ul>
+					<li>l</li>
+				</ul>
 			</div>
 		</div>
 	);

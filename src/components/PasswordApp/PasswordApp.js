@@ -17,13 +17,20 @@ function PasswordApp() {
 			>
 				<img src={PasswordAppImg} alt='' className='p-img' />
 			</a>
+			<div className='link-section'>
+				<div className='repo'>
+					<a href='https://github.com/Tschram93/password-generator'>
+						Github Repo
+					</a>
+				</div>
+				<div className='live-page'>
+					<a href='https://tschram93.github.io/password-generator/'>
+						Live Page
+					</a>
+				</div>
+			</div>
 			<div>
-				<a
-					href='https://github.com/Tschram93/password-generator'
-					className='repo'
-				>
-					Repo
-				</a>
+				<h3>Description</h3>
 			</div>
 		</div>
 	);

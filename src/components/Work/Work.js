@@ -16,7 +16,6 @@ function Work() {
                     <Space />
                     <Chickenrun />
                     <PasswordApp />
-                    {/* TODO: ADD GITHUB REPOS FOR EACH */}
                 </div>
             </div>
         </div>

@@ -8,20 +8,24 @@ import Toggle from './components/Toggle/Toggle';
 import Work from './components/Work/Work';
 
 const App = () => {
-  const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+	const theme = useContext(ThemeContext);
+	const darkMode = theme.state.darkMode;
 
 	return (
-		<div style={{
-      backgroundColor: darkMode ? "#222" : "#ffffff",
-      color: darkMode && "#ffffff",
-    }}>
-				<Toggle />
-				<Introduction />
-				<About />
-				<PdfViewer />
-				<Work />
-				<Contact />
+		<div
+			style={{
+				backgroundColor: darkMode ? '#222' : '#ffffff',
+				color: darkMode && '#ffffff',
+			}}
+		>
+			<Toggle />
+			<Introduction />
+			<About />
+			<PdfViewer />
+
+			<Work />
+			{/* projects should be limited to 2 per row */}
+			<Contact />
 		</div>
 	);
 };

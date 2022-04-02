@@ -17,10 +17,16 @@ function Chickenrun() {
 			>
 				<img src={ChickenrunImg} alt='' className='p-img' />
 			</a>
+			<div className='link-section'>
+				<div className='repo'>
+					<a href='https://github.com/maxaeon/project-2'>Github Repo</a>
+				</div>
+				<div className='live-page'>
+					<a href='https://chicken-running.herokuapp.com/'>Live Page</a>
+				</div>
+			</div>
 			<div>
-				<a href='https://github.com/maxaeon/project-2' className='repo'>
-					Repo
-				</a>
+				<h3>Description</h3>
 			</div>
 		</div>
 	);
