@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --mainColor: #384d47;
+    --mainColorLighter: #59b256;
+    --secondaryColor: #6b7478;
+    --textColor: #eee;
+}
+
+a {
+
+}
+
+button {
+
+}
+
+h3 {
+
+}
+
+header {
+    background-color: var(--mainColor);
+    align-items: center;
+    color: var(--textColor);
+    display: flex;
+    height: 80px;
+    justify-content: space-evenly;
+    padding: 0 2rem;
+}
+
+nav a {
+    color: var(--textColor);
+    margin: 0 2rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--secondaryColor);
+    margin: 0 2rem;
+    text-decoration: none;
+}
+
+header .nav-btn {
+    background: transparent;
+    border: none;
+    color: var(--textColor);
+    cursor: pointer;
+    font-size: 1.8rem;
+    opacity: 0;
+    outline: none;
+    padding: 5px;
+    visibility: hidden;
+}
+
+.nav-close-btn{
+
+}
+
+.responsive_nav {
+
+}
+
+@media only screen and (max-width: 1024px) {
+    header .nav-btn {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    header nav {
+        align-items: center;
+        background-color: var(--mainColor);
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        height: 100%;
+        justify-content: center;
+        left: 0;
+        position: fixed;
+        top: 0;
+        transform: translateY(-100vh);
+        transition: 1s;
+        width: 100%;
+    }
+
+    header .responsive_nav {
+        transform: none;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+    }
+
+    nav a {
+        font-size: 1,5rem;
+    }
+}

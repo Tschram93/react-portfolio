@@ -26,7 +26,12 @@ function Chickenrun() {
 				</div>
 			</div>
 			<div>
-				<h3>Description</h3>
+				<p className='work-headings'>Description of role</p>
+					<p className='work-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad!</p>
+				<p className='work-headings'>Challenges</p>
+					<p className='work-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad!</p>
+				<p className='work-headings'>Solution</p>
+					<p className='work-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, ad!</p>
 			</div>
 		</div>
 	);

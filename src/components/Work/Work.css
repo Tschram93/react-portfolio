@@ -1,3 +1,9 @@
+a {
+    color: #eee;
+    font-weight: 500;
+    text-decoration: none;
+}
+
 .work {
     display: flex;
 	height: 100vh;

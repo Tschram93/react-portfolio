@@ -1,3 +1,10 @@
+* {
+    margin: 0px;
+    overflow: none;
+    padding: 0px;
+    width: auto;
+}
+
 .about {
     align-items: center;
     display: flex;

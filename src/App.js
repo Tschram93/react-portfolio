@@ -3,6 +3,7 @@ import { ThemeContext } from './context';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Introduction from './components/Introduction/Introduction';
+import NavBar from './components/NavBar/NavBar';
 import PdfViewer from './components/PdfViewer/PdfViewer';
 import Toggle from './components/Toggle/Toggle';
 import Work from './components/Work/Work';
@@ -19,13 +20,14 @@ const App = () => {
 			}}
 		>
 			<Toggle />
+			<NavBar />
 			<Introduction />
 			<About />
 			<PdfViewer />
 
 			<Work />
 			{/* projects should be limited to 2 per row */}
-			<Contact />
+			{/* <Contact /> */}
 		</div>
 	);
 };
